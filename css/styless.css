@@ -17,14 +17,35 @@
 
 .texto1{
     margin: 5px;
-    background-color: violet;
     width: 30%;
     height: 100px;
 }
 .texto2{
     margin: 5px;
-    background-color: violet;
     width: 30%;
     height: 100px;
 }
-
+.contenedor2{margin: 5px;
+    width: 100%;
+    height: 400px;
+    background-color: yellowgreen;
+    display: flex;
+    
+}
+.musica11{
+    margin: 5px;
+    width: 30%;
+    height: 100px;
+}
+.musica1{
+    margin: 5px;
+    width: 40%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.musica22{
+    margin: 5px;
+    width: 30%;
+    height: 100px;
+}
