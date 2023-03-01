@@ -191,7 +191,7 @@ a{
     font-size: 22px;
 }
 .imag2{
-    background-image: url("../imagenes/viajar-con-mascotas-1.jpg");
+    background-image: url("/prueba/imagenes/earbuds.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 20%;
