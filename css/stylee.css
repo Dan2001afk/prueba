@@ -1,0 +1,801 @@
+@charset "utf-8";
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+html{
+    scroll-behavior: unset;
+}
+.body{
+    background-color: white;
+}
+.header{
+    background-color: white;
+    width: 99%;
+    height: 200px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    margin: 10px;
+    margin-top: 10px;
+}
+.titulop{
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.logoprin{
+    width: 25%;
+    height: 300px;
+    
+}
+.logo{
+   background-image: url("/prueba/imagenes/earbuds.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 180px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+.imagprin{
+    width: 25%;
+    height: 300px;
+    margin-left: auto;
+    display: flex;
+}
+.imagg{
+    background-image: url("../imagenes/patitas.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 280px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.h1{
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+    display: block;
+    font-size:80px;
+    text-align: center;
+    text-shadow: 6px 1px 11px  gray;
+    margin-top: 45px;
+}
+.cuad{
+    background-color: gray;
+    width: 80%;
+    height: 100px;
+    margin-left: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.nav{
+    width: 100%;
+    height: 100px;
+}
+.ul{
+  background-color: transparent;
+  margin-top: 35px;
+
+}
+li{
+    display: inline;
+}
+a{
+    color: purple;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 150px;
+
+    
+}
+.cuad2{
+    background-color: #CACFD2 ;
+    width: 53%;
+    height: 300px;
+    margin: 5px;
+    margin-top: 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 215px;
+    
+}
+.p1{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px black;
+}
+.p2{
+    width: 70%;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 240px;
+    line-height: 25px;
+}
+.nav1{
+  width: 100%;
+  height: 100px;
+}
+.ul1{
+    margin-left: 120px;
+    margin-top: -28px;
+    
+}
+.a1{
+    margin-left:210px;
+    font-size: 22px;
+}
+.imag1{
+    background-image: url("/prueba/imagenes/microphone.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 140px;
+    margin-top: -230px;
+    margin-left: 27px;
+}
+.cuad3{
+    background-color: #CACFD2 ;
+    width: 53%;
+    height: 300px;
+    margin: 5px;
+    margin-top: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 215px;
+    
+}
+.p3{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px black;
+}
+.p4{
+    width: 70%;
+    text-align: justify;
+    margin-top: 25px;
+    margin-left: 240px;
+    line-height: 30px;
+}
+.nav2{
+  width: 100%;
+  height: 100px;
+}
+.ul2{
+    margin-left: 735px;
+    margin-top: -28px;
+    
+}
+.a2{
+    margin-left: 210px;
+    font-size: 22px;
+}
+.imag2{
+    background-image: url("../imagenes/viajar-con-mascotas-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 120px;
+    margin-top: -225px;
+    margin-left: 20px;
+}
+.articleform{
+    background-color: #CACFD2 ;
+    width: 23%;
+    height: 511px;
+    margin-left: 1340px;
+    margin-top: -610px;
+    border-radius: 10px;
+
+}
+fieldset{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.form{
+    height: 500px;
+}
+.p5{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+[for="c4"]{
+    width: 3%;
+    height: 10px;
+    color: black;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 45px;
+    text-shadow: 1px 1px 10px black;
+    font-size: 23px;
+}
+[type="text"]{
+    background-color: white;
+    margin-left: 140px;
+    margin-top: -5px;
+    display: flex;
+    width: 40%;
+}
+[type="number"]{
+    background-color: white;
+    margin-left: 141px;
+    margin-top: 30px;
+    width: 40%;
+
+}
+.p6{
+    font-size: 23px;
+    margin-left: 70px;
+    margin-top: -24px;
+    text-shadow: 1px 1px 10px black;
+}
+[placeholder="Ingrese Nombre"]{
+    text-align: center;
+}
+[for="c5"]{
+    width: 3%;
+    height: 10px;
+    color: black;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-shadow: 1px 1px 10px black;
+    font-size: 23px;
+}
+[ type="date"]{
+    margin-top: 30px;
+    margin-left: 141px;
+    width: 40%;
+}
+.p7{
+    font-size: 23px;
+    margin-left: 70px;
+    margin-top: -24px;
+    text-shadow: 1px 1px 10px black;
+}
+.p8{
+    font-size: 23px;
+    margin-left: 70px;
+    margin-top: -24px;
+    text-shadow: 1px 1px 10px black;
+}
+[placeholder="--: -- ----"]{
+    text-align: center;
+}
+[for="c6"]{
+    width: 3%;
+    height: 10px;
+    color: black;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-shadow: 1px 1px 10px black;
+    font-size: 23px;
+}
+[type="submit"]{
+    margin-top: 60px;
+    margin-left: 170px;
+    font-size: 22px;
+}
+.article{
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.p9{
+    text-align: center;
+    font-size: 30px;
+}
+.p10{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.p11{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.ul3{
+    margin-left: 550px;
+    margin-top: -28px;
+    
+}
+.imag3{
+    background-image: url("../imagenes/vacunas-para-perros-768x512.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 140px;
+    margin-top: -245px;
+    margin-left: 15px;
+}
+.ul4{
+    margin-left: 322px;
+    margin-top: -28px;
+    
+}
+.imag4{
+    background-image: url("../imagenes/alimentar-mascota-natural.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 140px;
+    margin-top: -215px;
+    margin-left: 15px;
+}
+.ul5{
+    margin-left: 80px;
+    margin-top: -28px;
+    
+}
+.imag5{
+    background-image: url("../imagenes/por-que-es-importante-la-higiene-nuestras-mascotas-fotodreamstime.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 180px;
+    margin-top: -250px;
+    margin-left: 30px;
+}
+.ul6{
+    margin-left: 85px;
+    margin-top: -28px;
+    
+}
+.imag6{
+    background-image: url("../imagenes/PetHealth.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 180px;
+    margin-top: -250px;
+    margin-left: 32px;
+}
+.ul7{
+    margin-left: 55px;
+    margin-top: -28px;
+    
+}
+.imag7{
+    background-image: url("../imagenes/blog-mascotas.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 180px;
+    margin-top: -240px;
+    margin-left: 13px;
+}
+.imag8{
+    background-image: url("../imagenes/por_que_mi_perro_esta_inquieto_51369_600_square.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 180px;
+    margin-top: -242px;
+    margin-left: 30px;
+}
+@media screen  and (min-width:320px) and (max-width:440px) {
+    .contenedor{
+        height: 200px;
+    }
+    .body{
+        background-color: white;
+    }
+    .header{
+        background-color: white;
+        width: 96%;
+        height: 300px;
+        border-radius: 10px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        display: flex;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .titulop{
+    
+        width: 100%;
+        height: 300px;
+        display: flex;
+    }
+    .logoprin{
+        width: 25%;
+        height: 300px;
+        
+    }
+    .logo{
+       background-image: url("../imagenes/images.png");
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 100%;
+       height: 300px;
+       margin-left: 15px;
+       margin-top: 100px;
+    
+    }
+    .imagprin{
+        width: 25%;
+        height: 300px;
+        margin-left: 40px;
+        display: flex;
+    }
+    .imagg{
+        background-image: url("../imagenes/patitas.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 280px;
+        margin-left: 10px;
+        margin-top: 120px;
+    }
+    .h1{
+    
+        width: 50%;
+        height: 300px;
+        display: flex;
+        display: block;
+        font-size:35px;
+        margin-left: 50px;
+        text-shadow: 6px 1px 11px  gray;
+        margin-top: 70px;
+    }
+    .cuad{
+        background-color: gray;
+        width: 96%;
+        height: 100px;
+        margin-left: 9px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+        
+    }
+    .nav{
+        width: 100%;
+        height: 100px;
+     
+    }
+    .ul{
+      background-color: transparent;
+      margin-top: 40px;
+    
+    }
+    li{
+        display: inline;
+    }
+    a{
+        color: purple;
+        text-decoration: none;
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 30px;
+    
+        
+    }
+    .cuad2{
+        background-color: #CACFD2 ;
+        width: 96%;
+        height: 300px;
+        margin: 5px;
+        margin-top: 40px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+        margin-left: 9px;
+        
+    }
+    .p1{
+        margin-top: 25px;
+        margin-left: 20px;
+        font-size: 20px;
+        text-shadow: 2px 2px 4px black;
+    }
+    .p2{
+        width: 70%;
+        text-align: justify;
+        margin-top: 50px;
+        margin-left: 120px;
+        line-height: 15px;
+        font-size: 10px;
+    }
+    .nav1{
+      width: 100%;
+      height: 100px;
+    }
+    .ul1{
+        margin-left: 120px;
+        margin-top: -28px;
+        
+    }
+    .a1{
+        margin-top: 200px;
+        margin-left:210px;
+        font-size: 10px;
+    }
+    .imag1{
+        background-image: url("../imagenes/cuidados-para-perros-juegos-y-ejercicio-1024x768.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 140px;
+        margin-top: -170px;
+        margin-left: 27px;
+    }
+    .cuad3{
+        background-color: #CACFD2 ;
+        width:96%;
+        height: 300px;
+        margin: 5px;
+        margin-top: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+        margin-left: 9px;
+        
+    }
+    .p3{
+        margin-top: 25px;
+        margin-left: 20px;
+        font-size: 20px;
+        text-shadow: 2px 2px 4px black;
+    }
+    .p4{
+        width: 70%;
+        text-align: justify;
+        margin-top: 50px;
+        margin-left: 120px;
+        line-height: 15px;
+        font-size: 10px;
+    }
+    .nav2{
+ 
+      width: 100%;
+      height: 100px;
+  
+    }
+    .ul2{
+        margin-left: 735px;
+        margin-top: 500px;
+        
+    }
+    .a2{
+        margin-top: 20px;
+        margin-left: 210px;
+        font-size: 22px;
+    }
+    .imag2{
+        background-image: url("../imagenes/viajar-con-mascotas-1.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 120px;
+        margin-top: -705px;
+        margin-left: 20px;
+    }
+    .articleform{
+        background-color: #CACFD2 ;
+        width: 96%;
+        height: 511px;
+        margin-left: 9px;
+        margin-top: 50px;
+        border-radius: 10px;
+    
+    }
+    fieldset{
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+    }
+    .form{
+        height: 500px;
+    }
+    .p5{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 40px;
+    }
+    [for="c4"]{
+        width: 3%;
+        height: 10px;
+        color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 45px;
+        text-shadow: 1px 1px 10px black;
+        font-size: 23px;
+    }
+    [type="text"]{
+        background-color: white;
+        margin-left: 140px;
+        margin-top: -5px;
+        display: flex;
+        width: 40%;
+    }
+    [type="number"]{
+        background-color: white;
+        margin-left: 141px;
+        margin-top: 30px;
+        width: 40%;
+    
+    }
+    .p6{
+        font-size: 23px;
+        margin-left: 70px;
+        margin-top: -24px;
+        text-shadow: 1px 1px 10px black;
+    }
+    [placeholder="Ingrese Nombre"]{
+        text-align: center;
+    }
+    [for="c5"]{
+        width: 3%;
+        height: 10px;
+        color: black;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 70px;
+        text-shadow: 1px 1px 10px black;
+        font-size: 23px;
+    }
+    [ type="date"]{
+        margin-top: 30px;
+        margin-left: 141px;
+        width: 40%;
+    }
+    .p7{
+        font-size: 23px;
+        margin-left: 70px;
+        margin-top: -24px;
+        text-shadow: 1px 1px 10px black;
+    }
+    .p8{
+        font-size: 23px;
+        margin-left: 70px;
+        margin-top: -24px;
+        text-shadow: 1px 1px 10px black;
+    }
+    [placeholder="--: -- ----"]{
+        text-align: center;
+    }
+    [for="c6"]{
+        width: 3%;
+        height: 10px;
+        color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 70px;
+        text-shadow: 1px 1px 10px black;
+        font-size: 23px;
+    }
+    [type="submit"]{
+        margin-top: 60px;
+        margin-left: 170px;
+        font-size: 22px;
+    }
+    .article{
+        width: 96%;
+        margin-top: 60px;
+        margin-left: 9px;
+    }
+    .p9{
+        text-align: center;
+        font-size: 30px;
+    }
+    .p10{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .p11{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .ul3{
+        margin-left: 550px;
+        margin-top: -28px;
+        
+    }
+    .imag3{
+        background-image: url("../imagenes/vacunas-para-perros-768x512.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 140px;
+        margin-top: -245px;
+        margin-left: 15px;
+    }
+    .ul4{
+        margin-left: 322px;
+        margin-top: -28px;
+        
+    }
+    .imag4{
+        background-image: url("../imagenes/alimentar-mascota-natural.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 140px;
+        margin-top: -215px;
+        margin-left: 15px;
+    }
+    .ul5{
+        margin-left: 80px;
+        margin-top: -28px;
+        
+    }
+    .imag5{
+        background-image: url("../imagenes/por-que-es-importante-la-higiene-nuestras-mascotas-fotodreamstime.webp");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 30%;
+        height: 180px;
+        margin-top: -250px;
+        margin-left: 30px;
+    }
+    .ul6{
+        margin-left: 85px;
+        margin-top: -28px;
+        
+    }
+    .imag6{
+        background-image: url("../imagenes/PetHealth.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 30%;
+        height: 180px;
+        margin-top: -250px;
+        margin-left: 32px;
+    }
+    .ul7{
+        margin-left: 55px;
+        margin-top: -28px;
+        
+    }
+    .imag7{
+        background-image: url("../imagenes/blog-mascotas.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 180px;
+        margin-top: -240px;
+        margin-left: 13px;
+    }
+    .imag8{
+        background-image: url("../imagenes/por_que_mi_perro_esta_inquieto_51369_600_square.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 180px;
+        margin-top: -242px;
+        margin-left: 30px;
+    }
